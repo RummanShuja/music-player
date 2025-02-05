@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotifyLogo.webp" alt="Spotify x_x">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songList">
+            <h1> Gane Bajane best songs of 2023</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img  alt="x_x">
+                    <span class="songName">Roadwimps</span>
+                    <span class="songListPlay"><span class="timestamp">5:21<i id="0"  class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="x_x">
+                    <span class="songName">Dan da Dan</span>
+                    <span class="songListPlay"><span class="timestamp">5:21<i id="1" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="x_x">
+                    <span class="songName">Attack on Titan</span>
+                    <span class="songListPlay"><span class="timestamp">5:21<i id="2" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="x_x">
+                    <span class="songName">Gana bajana 1</span>
+                    <span class="songListPlay"><span class="timestamp">5:21<i id="3" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" min="0" value="0"  max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-2x fa-step-backward" id="prev"></i>
+            <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="music.gif" width="40%" alt="" id="gif"><span id="masterSongName"></span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/80a872ce5e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
